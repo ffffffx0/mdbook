@@ -1,0 +1,17 @@
+[book]
+authors = []
+language = "en"
+multilingual = false
+src = "src"
+[build]
+create-missing = false
+
+[output.html.fold]
+enable = true
+level = 0
+[preprocessor.generate-summary]
+get_chapter_name_from_file = true
+ignore_missing_chapter_files = true
+chapter_file_name="index"
+
+[preprocessor.kroki-preprocessor]
